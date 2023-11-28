@@ -8,7 +8,7 @@ This assignment involves use of sequential container deque.
  
 1. **Function File:**
 
--Function Definition: `Reader.cpp` file Reader class object reads the file.
+-Function Definition: ``Reader.cpp`` file Reader class object reads the file.
 
 -The file provided is .stl file so the reader reads data of triangles present in the .stl file and stores in the vector of triangles of class triangulation.
 
