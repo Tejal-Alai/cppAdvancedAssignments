@@ -16,6 +16,6 @@ This assignment involves use of sequential container list.
 
 2. **Usage:**
 
--The program reads `.stl file` and returns the points of triangles in the `.txt` file.
+-The program reads `.stl` file and returns the points of triangles in the `.txt` file.
 
--Reader reads the `.stl file` and writer writes in the `.txt` file.
+-Reader reads the `.stl` file and writer writes in the `.txt` file.
