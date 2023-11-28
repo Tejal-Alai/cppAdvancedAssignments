@@ -15,7 +15,7 @@ Reader::~Reader()
 }
 
 //use lambada function
-
+std::string errorMsg = "File not exist!";
 auto isFileExist =[errorMsg = "File not found!"]()
 {
     return errorMsg;
@@ -25,11 +25,10 @@ void Reader::getTriangles(std::vector<Triangle>& triangles)
 {
     std::ifstream dataFile;
     dataFile.open(mFilePath);
-    if (!dataFile.is_open()) { 
-        std::cout<<"File not exist"<<std::endl;
-        isFileExist();
-        std::cout<<isFileExist();
-        return ;
+   if (!dataFile.is_open())
+    {
+        std::cout << isFileExist();
+        return;
     }
 
     std::string line;
