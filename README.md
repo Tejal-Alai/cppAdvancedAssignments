@@ -1,6 +1,6 @@
 # cppAdvancedAssignments
 
-# Assignment3: File Handling in C++ Part1
+# Assignment3: File Handling in C++ Part 1
 
 ## Overview
 
@@ -13,4 +13,4 @@ This assignment involves file handling in C++ to read and process triangle data 
 3. Taken all values and pass each (x, y, z) values to the point3D class object in location `Reader.cpp`.
 4. Added that object in the Triangle class type vector in location `Reader.cpp`.
 
-**Used a range-for loop to print out the data from each object in write() function in location `Ex3\Updated Sketchers\src\Writer.cpp`**.
+**Used a range-for loop to print out the data from each object in write() function in location `Writer.cpp`**.
